@@ -4,7 +4,7 @@ import path from 'node:path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Doska.app/',
+  base: './',
   resolve: {
     alias: {
       '@': path.resolve('./src'),
